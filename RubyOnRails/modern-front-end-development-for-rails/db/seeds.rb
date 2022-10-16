@@ -6,6 +6,10 @@
 # We make no guarantees that this code is fit for any purpose.
 # Visit http://www.pragmaticprogrammer.com/titles/nrclient for more book information.
 #---
+
+# areader@example.com 
+# awesome
+
 ["all", Rails.env].each do |seed|
   seed_file = Rails.root.join("db", "seeds", "#{seed}.rb")
 
