@@ -7,4 +7,5 @@
 # Visit http://www.pragmaticprogrammer.com/titles/nrclient for more book information.
 #---
 class ApplicationController < ActionController::Base
+  # teste
 end
