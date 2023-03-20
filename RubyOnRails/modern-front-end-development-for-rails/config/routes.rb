@@ -7,6 +7,7 @@
 # Visit http://www.pragmaticprogrammer.com/titles/nrclient for more book information.
 #---
 Rails.application.routes.draw do
+  resources :products
   resources(:favorites)
   resource(:schedule)
   resources(:shopping_carts)
